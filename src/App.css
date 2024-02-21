@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&family=Quicksand&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800;900&family=Dancing+Script&family=Inter&family=Lato:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&family=Quicksand&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Assistant', sans-serif;
+}
+
+.wrapper {
+	min-height: 100vh;
+	margin-top: 4rem;
+	background-color: #f5f6f7;
+}
+
+/* ugmonk css*/
+
+form .form-control {
+	box-shadow: none;
+}
+
+form .form-control:hover {
+	box-shadow: none;
+	border-color: #74befa;
+}
+
+.ugmonk-bg {
+	background: linear-gradient(to bottom right, #e4e4e4, white);
+	min-height: 100vh;
+	margin-top: 4rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.navbar {
+	box-shadow: 0px 0px 5px grey;
+	background-color: transparent;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+	color: #fa7474;
+}
+
+.hero {
+	min-height: 100vh;
+	margin-top: 4rem;
+	display: flex;
+	align-items: flex-end;
+}
+
+.mycard {
+	transition: 0.4s ease-in-out;
+	border-radius: 0;
+}
+
+.mycard:hover {
+	transform: scale(1.01);
+	box-shadow: 0px 0px 5px grey;
+}
+
+/* product view */
+.product-view {
+	min-height: 100vh;
+	margin-top: 4rem;
+}
+
+.available-color {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.cover {
+	object-fit: contain;
+}
+
+/* note css */
+.plus-btn {
+	width: 40px;
+	height: 40px;
+	background-color: #ffa500;
+	border-radius: 25px;
+	font-size: 1.7rem;
+	color: white;
+}
+
+textarea {
+	resize: none;
+}
+
+/* bootstrap css modification */
+.form-control:focus,
+.accordion-button:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: #86b7fe;
+	outline: 0;
+	box-shadow: 0 0 0 0.25rem rgba(253, 253, 253, 0.25);
+}
+
+.accordion-button {
+	padding: 5px 0px;
+}
+
+.accordion-button:not(.collapsed) {
+	color: black;
+	background-color: white;
+	box-shadow: none;
+}
+
+.accordion-button::after {
+	content: none;
+}
+
+/* modify css btn */
+.blue-btn {
+	border-radius: 0px;
+	background-color: rgb(92, 81, 219);
+	border: 0px;
+}
+
+.blue-btn:hover {
+	background-color: rgb(77, 64, 221);
+}
+
+.nav-link {
+	color: black;
+}
+.nav-link:hover {
+	color: black;
+}
+.nav-link.active {
+	color: #14cda8;
+	font-weight: bolder;
+}
+
+/* profile-view css */
+.profile-view {
+	min-height: 100vh;
+	margin-top: 4rem;
+}
+
+/* dropdown css */
+.dropdown-toggle::after {
+	content: none;
+}
+.dropdown-item {
+	padding: 0px 13px;
+}
+.dropdown-menu {
+	margin-top: 25px;
+	transform: translate(-50%, 5%);
+	width: 18rem;
+	border-radius: 0;
+	border: 'none';
+}
+
+#basic-nav-dropdown:hover {
+	color: #212529;
+}
+
+.address-input {
+	border: none;
+	border-bottom: 1px solid rgb(201, 201, 201);
+	border-radius: 0;
+	/* margin-bottom: 5px; */
+}
+
+/* dropdown css */
+.dropdown-item:hover {
+	font-weight: bold;
+	background-color: #fff;
+}
+
+.pink-btn {
+	border-radius: 0px;
+	border-color: #e93d67;
+	color: #e93d67;
+}
+
+.pink-btn:hover {
+	background-color: #fae4ea81;
+	border-radius: 0px;
+	border-color: #e93d67;
+	color: #e93d67;
+}
+
+.set-margin p {
+	margin-bottom: 5px;
+}
+
+.profile-table tr td h5 {
+	font-size: 1.1rem;
+}
+
+.profile-table tr {
+	margin: 20px 0px;
+}
+
+/* profile overview css */
+
+@media screen and (max-width: 766px) {
+	.side-menu {
+		display: none;
+	}
+}
